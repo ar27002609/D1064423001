@@ -9,4 +9,7 @@ world.x = display.contentCenterX
 world.y = display.contentCenterY - 30
 
 local msgText = display.newText( "Hello, world!", world.x, world.y+160, native.systemFont, 32 )
-msgText:setFillColor( 0.2, 0.6, 0.8 )
+msgText:setFillColor( 1.0, 1.0, 1.0 )
+
+local msgText = display.newText( "Hello, world!", world.x, world.y+200, native.systemFont, 32 )
+msgText:setFillColor( 1.0, 0.0, 1.0 )
